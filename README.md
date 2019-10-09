@@ -13,8 +13,9 @@ Study Spring Boot and Spring modules with basics of HTML/CSS. I want to gain bas
 
 ### Color Scheme
 
-<span style="color=#EAE7DC">#EAE7DC</span>
-<span style="color=#D8C3A5">#D8C3A5</span>
-<span style="color=#8E8D8A">#8E8D8A</span>
-<span style="color=#E98074">#E98074</span>
-<span style="color=#E85A4F">#E85A4F</span>
+- ![#EAE7DC](https://placehold.it/15/eae7dc/EAE7DC?text=+) `#EAE7DC`
+- ![#D8C3A5](https://placehold.it/15/D8C3A5/000000?text=+) `#D8C3A5`
+- ![#8E8D8A](https://placehold.it/15/8E8D8A/000000?text=+) `#8E8D8A`
+- ![#E98074](https://placehold.it/15/E98074/000000?text=+) `#E98074`
+- ![#E85A4F](https://placehold.it/15/E85A4F/000000?text=+) `#E85A4F`
+
