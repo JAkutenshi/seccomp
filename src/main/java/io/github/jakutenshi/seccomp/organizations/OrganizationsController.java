@@ -1,13 +1,13 @@
-package io.github.jakutenshi.seccomp.controllers;
+package io.github.jakutenshi.seccomp.organizations;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class ObjectsController {
+public class OrganizationsController {
 
-    @GetMapping("/objects")
+    @GetMapping("/organizations")
     public String objects() {
-        return "objects";
+        return "organizations";
     }
 }

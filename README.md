@@ -10,3 +10,11 @@ Study Spring Boot and Spring modules with basics of HTML/CSS. I want to gain bas
 3. ToDo
 
 ## Structure
+
+### Color Scheme
+
+<span style="color=#EAE7DC">#EAE7DC</span>
+<span style="color=#D8C3A5">#D8C3A5</span>
+<span style="color=#8E8D8A">#8E8D8A</span>
+<span style="color=#E98074">#E98074</span>
+<span style="color=#E85A4F">#E85A4F</span>
