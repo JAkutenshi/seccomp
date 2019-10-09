@@ -2,16 +2,42 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script rel="script" type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
     <title>Система работы с персоналом</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="/organizations">Организации</a></li>
-            <li><a href="/employees">Сотрудники</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav role="navigation">
+            <ul id="main-menu">
+                <li><a href="/organizations">Организации</a></li>
+                <li><a href="/employees">Сотрудники</a></li>
+                <li><a href="#">Дежурства</a></li>
+                <li><a href="#">Зарплата</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <div></div>
     <h1>Добро пожаловать!</h1>
+
+    <div id="organization-info-container">
+        <div class="info-block">
+            <div class="info-header">Организация: </div>
+
+            <p>Первый блок блок блок блок блок</p>
+            <p>Первый блок блок блок блок блок</p>
+
+        </div>
+        <div class="info-block">Второй блок</div>
+        <div class="info-block">Третий блок</div>
+    </div>
+
 </body>
 </html>

@@ -13,7 +13,7 @@ Study Spring Boot and Spring modules with basics of HTML/CSS. I want to gain bas
 
 ### Color Scheme
 
-- ![#EAE7DC](https://placehold.it/15/eae7dc/EAE7DC?text=+) `#EAE7DC`
+- ![#EAE7DC](https://placehold.it/15/EAE7DC/000000?text=+) `#EAE7DC`
 - ![#D8C3A5](https://placehold.it/15/D8C3A5/000000?text=+) `#D8C3A5`
 - ![#8E8D8A](https://placehold.it/15/8E8D8A/000000?text=+) `#8E8D8A`
 - ![#E98074](https://placehold.it/15/E98074/000000?text=+) `#E98074`
