@@ -29,3 +29,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+### DB with personal data ###
+db.sqlite
+db.h2db*
