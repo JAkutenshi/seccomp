@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Информация об Организациях</title>
@@ -8,10 +8,23 @@
     <h1>Организации</h1>
     Здесь будет представлена информация об охраняемых компанией организациях.
 
-    <h1>Объекты</h1>
-    Здесь будет представлена информация об объектах выбранной организации.
+    Список:
 
-    <h1>Посты</h1>
-    Здесь будет представлена информация о постах выбранного объекта.
+    <form action="#" th:action="@{/remove}" th:object="${selected}" method="post">
+        <p><select th:field ="*{id}" size="10">
+            <option th:each="o : ${organizations}" th:value="${o.id}" th:text="${o.name + ' ' + o.legalAddress + ' ' + o.phoneNum}"></option>
+        </select></p>
+        <p><input type="submit" value="Удалить"/></p>
+    </form>
+
+    <form action="#" th:action="@{/organizations}" th:object="${organization}" method="post">
+        <p>Название: <input type="text"  th:field="*{name}" /> </p>
+        <p>Адрес: <input type="text" th:field="*{legalAddress}" /> </p>
+        <p>Номер телефона: <input type="text" th:field="*{phoneNum}" /> </p>
+        <input type="submit" value="Добавить"/>
+        <input type="reset" value="Очистить"/>
+    </form>
+
+
 </body>
 </html>

@@ -1,6 +1,7 @@
 package io.github.jakutenshi.seccomp.organizations;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
 
 @Entity
 @Table(name = "Organization")
@@ -8,8 +9,11 @@ public class Organization {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long   id;
+    @NotBlank(message = "Name is mandatory!")
     private String name;
+    @NotBlank(message = "Address is mandatory!")
     private String legalAddress;
+    @NotBlank(message = "Phone is mandatory!")
     private String phoneNum;
 
     protected Organization() { }

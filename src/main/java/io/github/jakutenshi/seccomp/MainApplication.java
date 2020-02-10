@@ -20,9 +20,9 @@ public class MainApplication {
 
 
 			//repository.save(new Organization("Рога и копыта", "Торжковская 15", "+79311234567"));
-			for (Organization o : repository.findByLegalAddress("Торжковская 15")) {
-				System.out.println(o.toString());
-			}
+//			for (Organization o : repository.findByLegalAddress("Торжковская 15")) {
+//				System.out.println(o.toString());
+//			}
 		};
 	}
 
