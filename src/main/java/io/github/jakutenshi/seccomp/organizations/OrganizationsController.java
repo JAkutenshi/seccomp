@@ -21,7 +21,6 @@ public class OrganizationsController {
         return "organizations";
     }
 
-//ToDo: NO DATA RESUBMITTING!
     @PostMapping("/organizations")
     public String newOrganizationSubmission(@ModelAttribute Organization organization, Model model) {
         organizationRepository.save(organization);
@@ -32,6 +31,6 @@ public class OrganizationsController {
     @PostMapping("/remove")
     public String removeSelectedOrganization(@ModelAttribute("selected") Organization selected, Model model) {
         organizationRepository.deleteById(selected.getId());
-        return "organizations";
+        return "redirect:/organizations";
     }
 }
